@@ -18,6 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
+Configuration can happen anywhere, `application.rb` or `config/initializers/holy_cow.rb` seem like reasonable places.
+
 ### Recipients
     
     HolyCow.recipient "my@emailaddress.com"
@@ -42,7 +44,7 @@ HolyCow uses action_mailer, so it will use whatever e-mail sending you have conf
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/holy_cow/fork )
+1. Fork it ( https://github.com/tenforwardconsulting/holy_cow )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

@@ -17,7 +17,10 @@ module HolyCow
     @@recipient_list
   end
 
-  def self.from_address
+  def self.from_address(addr=nil)
+    if (addr) 
+      @@from_address = addr
+    end
     @@from_address
   end
 
