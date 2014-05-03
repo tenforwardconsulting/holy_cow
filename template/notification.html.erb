@@ -1,0 +1,9 @@
+<h1>Holy Cow!</h1>
+<p>Somebody did something you (hopefully) care about!  Here are the details</p>
+
+<h2><%= @subject %></h2>
+<pre>
+  <% @things.each do |thing| %>
+    <%= thing.pretty_inspect %>
+  <% end %>
+</pre>
